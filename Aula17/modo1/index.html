@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio Aula17</title>
+</head>
+<body>
+    <script>
+        let numero = Number(prompt('Digite um numero: '));
+        document.body.innerHTML += `O seu numero é: <strong><h3>${numero}</h3></strong><br />`
+        document.body.innerHTML += `Raiz Quadrada: <strong>${numero}</strong><br />`;
+        document.body.innerHTML += `<strong>${numero}</strong> é inteiro?: ${Number.isInteger(numero)}<br /> `;
+        document.body.innerHTML += `É NaN: <strong>${Number.isNaN(numero)}</strong><br />`;
+        document.body.innerHTML += `Arredondando para baixo: <strong>${Math.floor(numero)}</strong><br />`;
+        document.body.innerHTML += `Arredondando para cima: <strong>${Math.ceil(numero)}</strong><br />`;
+        document.body.innerHTML += `Com Duas casas decimais: <strong>${numero.toFixed(2)}</strong><br />`;
+    </script>
+</body>
+</html>
