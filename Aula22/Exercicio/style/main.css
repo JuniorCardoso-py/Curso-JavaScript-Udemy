@@ -1,0 +1,35 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bolder;
+    border-radius: 35px;
+
+}
+input{
+    font-weight: bold;
+}
+button{
+    display: block;
+    width: 80px;
+    height: 35px;
+    background-color: green;
+    font-style: italic;
+    font-size: 18px;
+    border-radius: 25px;
+    box-sizing: content-box;
+}
+button:hover{
+    font-size: 1.5em;
+}

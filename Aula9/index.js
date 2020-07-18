@@ -19,6 +19,7 @@ let sobrenomeAluno = null; // Nulo tambem não aponta para lugar nenhum da memor
 const boolean = true;
 const boolean2 = false;
 
+console.log(typeof num2);
 console.log(typeof nome, nome);
 console.log(typeof nomeAluno, nomeAluno);
 console.log(typeof sobrenomeAluno, sobrenomeAluno);

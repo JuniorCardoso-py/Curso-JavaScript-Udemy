@@ -2,8 +2,8 @@ function saudacao(nome) {
     return `Bom Dia ${nome} !`
 }
 
-const variavel = saudacao('Junior');
 
+const variavel = saudacao('Junior');
 console.log(saudacao('Junior'));
 console.log(variavel);
 
@@ -27,7 +27,7 @@ console.log(multiplicacao());
 const raiz = function (n) {
     return Math.sqrt(n)
 };                                        // NÃO ESQUECER quando for declarar uma variavel como funcao
-                                          // colocar pont e virgula no final
+                                          // colocar ponto e virgula no final
 
 console.log(raiz(100))
 
