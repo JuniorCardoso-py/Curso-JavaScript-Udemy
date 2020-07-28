@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300&display=swap');
+
+:root {
+    --primary-color: rgba(47, 87, 194, 0.87);
+    --hover-color: #8cc990
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+}
+
+.container {
+    min-width: 500px;
+    max-width: 80%;
+    margin: 60px auto;
+    background: bisque;
+    padding: 20px;
+    border-radius: 35px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+}
+
+.container h1 {
+    font-size: 28px;
+    border-radius: 30px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 5px 5px 5px;
+}
+
+.container h1:hover{
+    background: var(--hover-color);
+    transition: 600ms;
+    font-size: 4vh;
+}

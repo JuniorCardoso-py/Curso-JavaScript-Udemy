@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Thin", sans-serif;
+}
+
+body {
+    background: #25afdc;
+}
+
+form {
+    background: bisque;
+    max-width: 50%;
+    margin: 35px auto;
+    border-radius: 10px;
+    padding: 10px 35px 15px 10px;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Open sans', sans-serif;
+}
+form h1 {
+    margin-bottom: 35px;
+}
+
+.container {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-left: 20px;
+    line-height: 1.5em;
+
+}
+
+.container .titulo{
+    font-size: 22px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+}
+
+.container .tabela{
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+}
+form label, form input, form button{
+    display: flex;
+    max-width: 60%;
+}
+form button{
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    background: #8cc990;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+}
+form button:hover{
+    background: #5ac961;
+    transition: 550ms;
+}
+form input{
+    border-color: rgba(44, 149, 34, 0.51);
+    border-radius: 3px;
+}
